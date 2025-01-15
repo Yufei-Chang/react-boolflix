@@ -1,5 +1,5 @@
-import { useGlobalContext } from "/GlobalContext";
-import { Card } from "/Card";
+import { useGlobalContext } from "./GlobalContext";
+import { Card } from "./Card";
 
 export function CardList() {
   const { dataFromApi, selectValue } = useGlobalContext();

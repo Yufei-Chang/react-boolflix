@@ -1,6 +1,6 @@
-import { useGlobalContext } from "/GlobalContext";
+import { useGlobalContext } from "./GlobalContext";
 import { useQuery } from "@tanstack/react-query";
-import { fetchMovies, fetchTvSeries } from "./services/API";
+import { fetchMovies, fetchTvSeries } from "./services/Api";
 import { useEffect } from "react";
 import { Select } from "./InputFilter";
 

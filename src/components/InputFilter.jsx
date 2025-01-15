@@ -1,4 +1,4 @@
-import { useGlobalContext } from "/GlobalContext";
+import { useGlobalContext } from "./GlobalContext";
 
 export function Select() {
   // Prendo dal context sia il valore di select che la funzione per settarlo

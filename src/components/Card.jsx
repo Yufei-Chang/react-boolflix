@@ -1,6 +1,6 @@
 import Flag from "react-world-flags";
-import { languageToFlag } from "./utilities/Bandiere";
-import { renderStars } from "/Stelline";
+import { languageToFlag } from "../utilities/Bandiere";
+import { renderStars } from "./Stelline";
 
 // Url base del immagine
 const baseUrlImage = "https://image.tmdb.org/t/p/";
